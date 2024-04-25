@@ -1,0 +1,17 @@
+.messages-layout {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 20vh;
+}
+
+.messages {
+    display: flex;
+    margin-top: 30px;
+    align-items: start;
+}
+
+.custom-thead {
+    background-color: #3498db; /* Синий цвет */
+    color: #fff; /* Белый цвет текста */
+}

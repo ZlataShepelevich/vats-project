@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 960px;
+}
+
+/* Optional separation between blocks */
+.container > div:not(:last-child) {
+    margin-right: 20px;
+}
+
+div.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-meeting {
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-meeting button {
+    padding: 10px 20px;
+    background-color: #3F92D2; /* Blue background color */
+    color: #fff; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.new-meeting {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.new-meeting button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.join-meeting {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.join-meeting textarea{
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 70vh;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.join-meeting input[type="time"]{
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}

@@ -1,0 +1,163 @@
+body {
+    background-image: url('/images/4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #94b9ff;
+}
+
+.statistics-body,
+.messages-body {
+    background-image: url('/images/2.png');
+}
+
+.navbar{
+    background:#3F92D2;
+}
+.nav-link , .navbar-brand{
+    color: #f4f4f4;
+    cursor: pointer;
+}
+.nav-link{
+    margin-right: 1em !important;
+}
+.nav-link:hover{
+    border-radius: 10px;
+    background: #f4f4f4;
+    color: #3F92D2;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar-toggler{
+    background:#fff !important;
+}
+
+.statistics-hours-name {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 20vh;
+}
+
+.statistics-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+#myChart {
+    flex: 1;
+    max-width: 600px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form,
+.social-icons {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons {
+    margin-right: 20px;
+    height: fit-content;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form input[type="email"],
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.login-form button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.login-form p {
+    margin-top: 10px;
+}
+
+.login-form a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.social-icons h2 {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.user-email {
+    font-size: 15px !important;
+}
+
+.userList p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 12px !important;
+}
+
+#secondChart {
+    flex: 1;
+    max-width: 900px;
+}
+
+.second-statistics-hours-name {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 8vh;
+}
+
+.second-statistics-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+}
+
+.settings-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+}
